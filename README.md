@@ -44,12 +44,14 @@ Using K-Means Clustering we can create customer clusters and visualize them like
 </div>
 
 ### 4.4. Interpretation
-<img src="images/Cluster Interpretation.png" alt="Cluster Interpretation">
+<p align="center"><img src="images/Interpretation Cluster.png" alt="Cluster Interpretation"></p>
 
 **Cluster 0	: Low-Level Customer**<br>
 Customers who make infrequent transactions, buy small quantities, and generate low total amounts.<br>
+
 **Cluster 1	: Mid-Level Customer**<br>
 Customers who have moderate transaction frequency, purchase medium quantities, and generate intermediate total amounts.<br>
+
 **Cluster 2	: High-Level Customer** <br>
 Customers who make frequent transactions, buy large quantities, and generate high total amounts.
 
