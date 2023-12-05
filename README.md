@@ -10,9 +10,8 @@
 2. Create a machine learning using ARIMA model to predict the daily number of sales and K-Means Clustering to create customer clusters/segments.
 
 ## 2. Exploratory Data Analysis
-Using SQL and Tableau we will do exploratory data analysis to the transaction data.
+Using SQL and Tableau we will do exploratory data analysis for the transaction data.
 <p align="center"><img src="images/SQL.png" alt="SQL for Data Transaction"></p>
-
-
+<p align="center"><img src="images/Sales Dashboard.png" alt="Sales Dashboard Using Tableau"></p>
 
 
