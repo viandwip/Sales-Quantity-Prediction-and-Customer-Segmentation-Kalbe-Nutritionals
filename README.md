@@ -28,7 +28,10 @@ We can also use the model to predict the quantity of product needed for sales in
 <p align="center"><img src="images/Quantity Predictions for January 2023.png" alt="Quantity Predictions for January 2023"></p>
 
 ## 4. Customer Segmentation
-
+<div style="display: flex; justify-content: space-between;">
+  <img src="Elbow Method.png" alt="Elbow Method" style="width: 48%;">
+  <img src="Silhouette Score.png" alt="Silhouette Score" style="width: 48%;">
+</div>
 
 
 
