@@ -16,14 +16,19 @@ Using SQL and Tableau we will do exploratory data analysis for the transaction d
 
 ### 2.2. Tableau
 <p align="center"><img src="images/Sales Performance Dashboard.png" alt="Sales Perfromance Dashboard Using Tableau"></p>
+[Link to Sales Performance Dashboard](https://public.tableau.com/app/profile/oktavian.dwi.putra/viz/KalbeNutrionals-SalesPerformanceDashboard/Dashboard)
 
 ## 3. Sales Quantity Prediction
 After we found the parameters for ARIMA model (p = 28, d = 0, q = 28), we can train the model with the data train and make prediction with the data test. We can visualize the result between the actual data and the predictions like in the image below.
 <p align="center"><img src="images/Actual Vs Predictions.png" alt="The Number of Products Sold Actual Vs Predictions"></p>
 
-We can also use the model to predict the quantity of product needed in January 2023. Based on the prediction result, the number of quantities needed in January 2023 has integer statistic values:
+We can also use the model to predict the quantity of product needed for sales in January 2023. Based on the prediction result, the number of quantities needed in January 2023 has integer statistic values:<br>
+
 **Mean: 50, Median: 50, Min: 32, Max: 60, Total: 1545**
 <p align="center"><img src="images/Quantity Predictions for January 2023.png" alt="Quantity Predictions for January 2023"></p>
+
+## 4. Customer Segmentation
+
 
 
 
