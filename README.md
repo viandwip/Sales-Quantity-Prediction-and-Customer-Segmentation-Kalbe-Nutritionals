@@ -38,7 +38,7 @@ From the elbow method and silhouette score plot, we can conclude that the optima
 
 ### 4.3. Cluster Visualization
 Using K-Means Clustering we can create customer clusters and visualize them like the images below.
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex;">
   <img src="images/Pairplot Cluster.png" alt="Pairplot Cluster" style="width: 48%;" >
   <img src="images/Pie Chart Cluster.png" alt="Pie Chart Cluster" style="width: 41%;">
 </div>
