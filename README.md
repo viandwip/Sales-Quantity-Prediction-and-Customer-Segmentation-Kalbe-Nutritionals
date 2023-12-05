@@ -37,11 +37,36 @@ We can also use the model to predict the quantity of product needed for sales in
 From the elbow method and silhouette score plot, we can conclude that the optimal number of **clusters is 3**.
 
 ### 4.3. Cluster Visualization
-Using K-Means Clustering we can create customer clusters and visualize them like the image below.
+Using K-Means Clustering we can create customer clusters and visualize them like the images below.
 <div style="display: flex; justify-content: space-between;">
   <img src="images/Pairplot Cluster.png" alt="Pairplot Cluster" style="width: 48%;" >
   <img src="images/Pie Chart Cluster.png" alt="Pie Chart Cluster" style="width: 41%;">
 </div>
+
+### 4.4. Interpretation
+<img src="images/Cluster Interpretation.png" alt="Cluster Interpretation">
+
+**Cluster 0	: Low-Level Customer**<br>
+Customers who make infrequent transactions, buy small quantities, and generate low total amounts.<br>
+**Cluster 1	: Mid-Level Customer**<br>
+Customers who have moderate transaction frequency, purchase medium quantities, and generate intermediate total amounts.<br>
+**Cluster 2	: High-Level Customer** <br>
+Customers who make frequent transactions, buy large quantities, and generate high total amounts.
+
+### 4.5. Business Recommendation
+
+**Cluster 0	: Low-Level Customer**<br>
+- Use special promotions and discounts to encourage more frequent purchases. We can also use email marketing and personalized offers to re-engage them.<br>
+- Offer recommendations for complementary products or services to increase the size of their orders.<br>
+
+**Cluster 1	: Mid-Level Customer**<br>
+- Focus on retaining and growing the loyalty using personalized loyalty programs that offer incentives and rewards for continued shopping.<br>
+- Analyze their purchase history to identify products or services that are commonly bought together. Promote cross-selling and upselling opportunities to increase their average transaction value.<br>
+
+**Cluster 2	: High-Level Customer** <br>
+- Create exclusive offers, early access, and personalized experiences for this cluster to make them feel valued.<br>
+- Reward VIP customers for their loyalty and encourage them to refer friends and family to our business. Consider creating a referral program that benefits both parties.<br>
+- Identify high-value products or services and promote them to this cluster. Offer bundled packages or discounts for premium offerings.
 
 
 
