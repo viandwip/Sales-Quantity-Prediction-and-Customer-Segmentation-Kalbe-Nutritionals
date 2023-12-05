@@ -12,6 +12,6 @@
 ## 2. Exploratory Data Analysis
 Using SQL and Tableau we will do exploratory data analysis for the transaction data.
 <p align="center"><img src="images/SQL.png" alt="SQL for Data Transaction"></p>
-<p align="center"><img src="images/Sales Dashboard.png" alt="Sales Dashboard Using Tableau"></p>
+<p align="center"><img src="images/Sales Dashboard.png" alt="Sales Dashboard Tableau"></p>
 
 
