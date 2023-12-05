@@ -16,9 +16,10 @@ Using SQL and Tableau we will do exploratory data analysis for the transaction d
 
 ### 2.2. Tableau
 <p align="center"><img src="images/Sales Performance Dashboard.png" alt="Sales Perfromance Dashboard Using Tableau"></p>
+<p align="center">
+  <a href="https://public.tableau.com/app/profile/oktavian.dwi.putra/viz/KalbeNutrionals-SalesPerformanceDashboard/Dashboard">Sales Performance Dashboard in Tableau Public</a>
+</p>
 
-###
-[Sales Performance Dashboard in Tableau Public](https://public.tableau.com/app/profile/oktavian.dwi.putra/viz/KalbeNutrionals-SalesPerformanceDashboard/Dashboard)
 
 ## 3. Sales Quantity Prediction
 After we found the parameters for ARIMA model (p = 28, d = 0, q = 28), we can train the model with the data train and make prediction with the data test. We can visualize the result between the actual data and the predictions like in the image below.
