@@ -15,8 +15,8 @@ Using SQL and Tableau we will do exploratory data analysis for the transaction d
 <p align="center"><img src="images/SQL.png" alt="SQL for Data Transaction"></p>
 
 ### 2.2. Tableau
+[Sales Performance Dashboard in Tableau Public](https://public.tableau.com/app/profile/oktavian.dwi.putra/viz/KalbeNutrionals-SalesPerformanceDashboard/Dashboard)
 <p align="center"><img src="images/Sales Performance Dashboard.png" alt="Sales Perfromance Dashboard Using Tableau"></p>
-[Link to Sales Performance Dashboard](https://public.tableau.com/app/profile/oktavian.dwi.putra/viz/KalbeNutrionals-SalesPerformanceDashboard/Dashboard)
 
 ## 3. Sales Quantity Prediction
 After we found the parameters for ARIMA model (p = 28, d = 0, q = 28), we can train the model with the data train and make prediction with the data test. We can visualize the result between the actual data and the predictions like in the image below.
@@ -28,10 +28,21 @@ We can also use the model to predict the quantity of product needed for sales in
 <p align="center"><img src="images/Quantity Predictions for January 2023.png" alt="Quantity Predictions for January 2023"></p>
 
 ## 4. Customer Segmentation
+### 4.1. Elbow Method
+<img src="images/Elbow Method.png" alt="Elbow Method">
+
+### 4.2. Silhouette Score
+<img src="images/Silhouette Score.png" alt="Silhouette Score">
+
+From the elbow method and silhouette score plot, we can conclude that the optimal number of **clusters is 3**.
+
+### 4.3. Cluster Visualization
+Using K-Means Clustering we can create customer clusters and visualize them like the image below.
 <div style="display: flex; justify-content: space-between;">
-  <img src="Elbow Method.png" alt="Elbow Method" style="width: 48%;">
-  <img src="Silhouette Score.png" alt="Silhouette Score" style="width: 48%;">
+  <img src="images/Pairplot Cluster.png" alt="Pairplot Cluster" style="width: 48%;" >
+  <img src="images/Pie Chart Cluster.png" alt="Pie Chart Cluster" style="width: 41%;">
 </div>
+
 
 
 
